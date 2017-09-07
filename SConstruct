@@ -71,6 +71,7 @@ if system=='Windows':
 		print("**** Mingw Tool")
 		#pass
 	#env.Library('bin\\foo', Glob('main/*.c')) #lib
-	env.SharedLibrary('bin\\foo', Glob('main/*.c')) #dll
+	#env.SharedLibrary('bin\\foo', Glob('main/*.c')) #dll
+	env.SharedLibrary('bin\\foo', Glob('main/*.cpp')) #dll
 
 print("**** Script Finish Here! Win32")
