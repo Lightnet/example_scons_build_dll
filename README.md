@@ -6,6 +6,7 @@ Programs:
 Scons simple build dll example.
 
 `foo.c = foo.dll`
+
 `foo.cpp = foo.dll`
 
 Sample Test
